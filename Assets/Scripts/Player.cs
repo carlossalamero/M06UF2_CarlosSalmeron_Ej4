@@ -11,6 +11,10 @@ public class Player : MonoBehaviour
     public SpriteRenderer renderer;
     public Animator animatronix;
     Rigidbody2D rBody;
+    public Transform attackHitBox;
+    public float attackRange;
+    public LayerMask enemylayer;
+    public GameManager gameManager;
     //private GameManager gameManager;
 
     // Start is called before the first frame update
@@ -19,6 +23,9 @@ public class Player : MonoBehaviour
 
         animatronix = GetComponent<Animator>();
         rBody = GetComponent<Rigidbody2D>();
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+        
+
 
     }
 
@@ -51,8 +58,38 @@ public class Player : MonoBehaviour
             animatronix.SetBool("Salto", true);
 
         }
-    
+         if(Input.GetButtonDown("Fire1"))
+        {
+          
+            Attack();
+            animatronix.SetTrigger("Atacar");
+
+        }
     }
+
+        void Attack()
+         {
+
+        Collider2D[] attackedEnemies = Physics2D.OverlapCircleAll(attackHitBox.position, attackRange, enemylayer);
+
+         foreach(Collider2D enemy in attackedEnemies)
+          {
+
+            gameManager.Muerteninja();
+            Destroy(enemy.gameObject);
+
+
+          }
+
+         }
+
+           void OnDrawGizmos()
+         {
+
+        Gizmos.DrawWireSphere(attackHitBox.position, attackRange);
+
+         }
+
     
     void FixedUpdate()
     {
@@ -60,5 +97,6 @@ public class Player : MonoBehaviour
         rBody.velocity = new Vector2(dirx * speed, rBody.velocity.y);
 
     }
+
 
 }

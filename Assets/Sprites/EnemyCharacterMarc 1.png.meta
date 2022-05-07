@@ -1,22 +1,19 @@
 fileFormatVersion: 2
-guid: 54ff6418d80c9974b94048456e1acd6c
+guid: dd8b627b949f0314f941c60e6f9ccd30
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6204745087585342535
-    second: PrincipalCharacterMarc_0
+      213: 438660351632392086
+    second: EnemyCharacterMarc 1_0
   - first:
-      213: -4380049519942271625
-    second: PrincipalCharacterMarc_1
+      213: 1634388163472908334
+    second: EnemyCharacterMarc 1_1
   - first:
-      213: -3904664455126545183
-    second: PrincipalCharacterMarc_2
+      213: 6419123415464742198
+    second: EnemyCharacterMarc 1_2
   - first:
-      213: -8453883572528526219
-    second: PrincipalCharacterMarc_3
-  - first:
-      213: 1464293762497804697
-    second: PrincipalCharacterMarc_4
+      213: -4731075785127106252
+    second: EnemyCharacterMarc 1_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -106,97 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PrincipalCharacterMarc_0
+      name: EnemyCharacterMarc 1_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 723
-        width: 152
-        height: 301
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 5, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9bb20ac873154e9a0800000000000000
-      internalID: -6204745087585342535
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincipalCharacterMarc_1
-      rect:
-        serializedVersion: 2
-        x: 220
-        y: 717
-        width: 167
-        height: 307
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 7, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 77d78390b20f633c0800000000000000
-      internalID: -4380049519942271625
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincipalCharacterMarc_2
-      rect:
-        serializedVersion: 2
-        x: 462
-        y: 719
-        width: 161
-        height: 305
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1ec8619ad58dfc9c0800000000000000
-      internalID: -3904664455126545183
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincipalCharacterMarc_3
-      rect:
-        serializedVersion: 2
-        x: 223
-        y: 383
-        width: 134
-        height: 311
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 57c4dee6ea5cdaa80800000000000000
-      internalID: -8453883572528526219
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincipalCharacterMarc_4
-      rect:
-        serializedVersion: 2
-        x: 223
-        y: 45
-        width: 161
-        height: 314
+        x: 15
+        y: 408
+        width: 220
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,8 +117,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99970883b67325410800000000000000
-      internalID: 1464293762497804697
+      spriteID: 69fb814044f661600800000000000000
+      internalID: 438660351632392086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyCharacterMarc 1_1
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 405
+        width: 211
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20e7e410638ea610800000000000000
+      internalID: 1634388163472908334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyCharacterMarc 1_2
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 402
+        width: 200
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d0b248cbe451950800000000000000
+      internalID: 6419123415464742198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyCharacterMarc 1_3
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 403
+        width: 197
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439eb06c3a7d75eb0800000000000000
+      internalID: -4731075785127106252
       vertices: []
       indices: 
       edges: []
